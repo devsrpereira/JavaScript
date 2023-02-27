@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Teste de Nacionalidade</h1>
+    Onde você nasceu: <input type="text" value="teste" name="pais" id="ipais">
+    <input type="button" value="Analisar" onclick="analizar()">
+    <div id="ires"></div>
+
+    <script>
+        function analizar(){
+            var pais= document.querySelector('input#ipais').value
+            var res= document.querySelector('div#ires')
+            
+            res.innerHTML = `<p>Como você nasceu no ${pais};</p>`
+            
+            if(pais=='Brasil'){
+                res.innerHTML+=`<p>Aqui no Brasil você é um cidadão <strong>brasileiro</strong>.`
+            }
+            if(pais!='Brasil'){
+                res.innerHTML+=`<p>Aqui no Brasil você é um cidadão <strong>estrangeiro</strong>.`
+            }
+        }
+    </script>
+
+
+
+    
+</body>
+</html>
