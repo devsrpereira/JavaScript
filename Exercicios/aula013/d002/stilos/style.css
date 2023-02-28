@@ -19,7 +19,7 @@ section{
     width: 500px;
     margin: auto;
     border-radius: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     box-shadow: 1px 1px 8px #00000093;
 }
 p{
@@ -52,16 +52,12 @@ div#msg{
     padding: 15px;
 }
 
-div{
-    text-align: center;
-}
-
 img{
     position: relative;
     width: 200px;
     height: 200px;
     margin: auto;
-
+    padding-top: 15px;
 }
 footer{
     color: white;
