@@ -4,7 +4,17 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
+        
+        {
+            "name": "Launch Chrome against localhost",
+            "request": "launch",
+            "type": "chrome",
+            "url": "http://127.0.0.1:5500/CursoemVideo_Exercicios/aula015/d003%20copy/index.html?txnum=0",
+            "webRoot": "${workspaceFolder}"
+        }
+        
+      
+           
         
 
 
